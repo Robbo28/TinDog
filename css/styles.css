@@ -128,3 +128,43 @@ p {
 .pricing-col {
   padding: 3% 2%;
 }
+
+/* Call To Action */
+
+#cta {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  padding: 7% 15%;
+}
+
+.cta-button {
+  margin: 5% 3% 0% 0%;
+}
+
+/* Footer */
+
+#footer {
+  background-color: white;
+}
+
+.footer-div {
+  text-align: center;
+  margin: 3% 0% 0%;
+}
+
+.footer-icons {
+  padding: 0% 1% 20px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    max-width: 50%;
+  }
+}
